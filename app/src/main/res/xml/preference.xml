@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Enable Notifications"/>
+
+    <Preference
+        android:key="Created"
+        android:title="Application A"
+        android:summary="Created Start: Maret 25, 2019"/>
+
+    <ListPreference
+        android:key="pref_text_size"
+        android:title="Text Size"
+        android:summary="Text Size"
+        android:defaultValue="14sp"
+        android:entries="@array/text_size"
+        android:entryValues="@array/text_size_value"
+        />
+
+</PreferenceScreen>
